@@ -38,7 +38,7 @@ h3{
     width: 60%;
     transform: rotate(25deg);
     position: absolute;
-    right: 30%;
+    right: 4rem;
 }
 
 
@@ -97,4 +97,31 @@ position: relative;
 
 .pricing-cards{
     padding: 3% 2%;
+}
+
+@media (max-width : 992px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    padding: 8% 25% 8% 25%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    font-family: 'Montserrat';
+}
+.btn-foot{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#footer{
+    text-align: center;
+    padding-top: 5rem;
 }
